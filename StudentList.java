@@ -9,7 +9,11 @@ public class StudentList {
 
         String readLine = redfile(constant.filname);
 
-
+          if (args =null | args.length!=1)
+          {
+              System.out.println("asdfas dfasf");
+              return;
+          }
         if (args[0].equals("a")) {
             System.out.println("Loading data ...");
             try {
